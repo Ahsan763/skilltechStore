@@ -1,0 +1,2117 @@
+<!doctype html>
+<html dir="ltr">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Details</title>
+	<!-- Favicons -->
+	<link href="assets/images/favicon.png" rel="icon">
+	<!-- font aweasome -->
+    <link rel="stylesheet" href="dist/fontawesome-6.2.0/css/all.min.css">
+	<style>
+		body.dark,.dark .searchbox{background-color: #15212D;}
+	</style>
+	<!-- bootstrap 5.2.2 -->
+	<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+	<!-- fonts -->
+	<link href="dist/fonts/fonts.css" rel="stylesheet">
+	<!-- Main Stylesheet File -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link href="assets/css/ahsan.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/header.css" rel="stylesheet">
+	<link href="assets/css/megamenu.css" rel="stylesheet">
+	<link href="assets/css/home.css" rel="stylesheet">
+	<link href="assets/css/product-details.css" rel="stylesheet">
+	<link href="assets/css/mediaQueries.css" rel="stylesheet">
+	<link href="assets/css/rtl.css" rel="stylesheet">
+	<link href="assets/css/dark.css" rel="stylesheet">
+</head>
+<body>
+<!-- <div class="rating">
+	<input type="radio" name="rating" value="5" id="5">
+	<input type="radio" name="rating" value="4" id="4">
+	<input type="radio" name="rating" value="3" id="3">
+	<input type="radio" name="rating" value="2" id="2">
+	<input type="radio" name="rating" value="1" id="1">
+	<label for="5" class="rating-label">
+		<i class="fa-solid fa-star"></i>
+	</label>
+	<label for="4" class="rating-label">
+		<i class="fa-solid fa-star"></i>
+	</label>
+	<label for="3" class="rating-label">
+		<i class="fa-solid fa-star"></i>
+	</label>
+	<label for="2" class="rating-label">
+		<i class="fa-solid fa-star"></i>
+	</label>
+	<label for="1" class="rating-label">
+		<i class="fa-solid fa-star"></i>
+	</label>
+</div> -->
+<div class="body-wrapper">
+	<header class="header">
+		<nav class="nav1 nav1-web">
+			<div class="container">
+				<div class="nav1-wrpr">
+					<h1 class="nav1-wrpr-hdng">Now With Our Online Services We can reach you wherever you are</h1>
+					<a href="#" class="nav1-btn flex-a">
+						Order Now
+					</a>
+					<img src="assets/images/icons/pc.svg" alt="" class="nav1-wrpr-img">
+				</div>
+			</div>
+		</nav>
+		<nav class="nav2 nav2-web">
+			<div class="container">
+				<div class="nav2-wrpr flex-i justify-between">
+					<div class="nav2-cash-delivery flex-a">
+						<img src="assets/images/icons/cash-on-delivery.svg" alt="" class="nav2-cash-delivery-img">
+						<p class="nav2-cash-delivery-p">Cash on Delivery in UAE</p>
+					</div>
+					<div class="free-shipping flex-a">
+						<img src="assets/images/icons/truck.svg" alt="" class="free-shipping-img dark-none">
+						<img src="assets/images/icons/truck-white.png" alt="" class="free-shipping-img d-none dark-show">
+						<p class="free-shipping-p">Free Shipping in UAE above 2500$</p>
+					</div>
+					<div class="delivery-modal-btn flex-i" data-bs-toggle="modal" data-bs-target="#deliveryModal">
+						<div class="delivery-modal-btn-box1 flex-a">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="delivery-modal-btn-box2 flex-i">
+							Delivery To
+							<i class="fa-solid fa-caret-down"></i>
+						</div>
+					</div>
+					<div class="calbox flex">
+						<div class="calbox-inn flex-a">
+							<i class="fa-solid fa-headset"></i>
+						</div>
+						<div class="calbox-inn2">
+							<div class="calbox-inn2-r flex-i">
+								<h1 class="calbox-inn2-h">Call Us Now :</h1>
+								<a href="tel:+971 535488721" class="calbox-inn2-p">+971 535488721</a>
+							</div>
+							<div class="calbox-inn2-r flex-i">
+								<h1 class="calbox-inn2-h">Email :</h1>
+								<a href="mailto: info@skilledtech.ae" class="calbox-inn2-p calbox-inn2-p2"> info@skilledtech.ae</a>
+							</div>
+						</div>
+					</div>
+					<div class="web-wrpr flex-i">
+						<div class="theme flex-a">
+							<div class="theme-light flex-a light-btn">
+								<i class="fa-solid fa-sun"></i>
+							</div>
+							<div class="theme-dark flex-a dark-btn">
+								<i class="fa-solid fa-moon"></i>
+							</div>
+						</div>
+						<div class="web-wrpr-sep"></div>
+						<div class="lang flex-a">
+							<div class="lang-ar flex-a language_toggle_ar">
+								<i class="fa-solid fa-globe langtogle-icn"></i>
+								<p class="language_toggle_ar-text">العربية</p>
+							</div>
+							<div class="lang-ar flex-a language_toggle_en">
+								<i class="fa-solid fa-globe langtogle-icn"></i>
+								<p class="language_toggle_ar-text">En</p>
+							</div>
+						</div>
+					</div>
+					<div class="dropdown dropdown1">
+						<div class="profile-btn flex-i dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="profile-btn-hol profile-btn-hol1 r-50 flex-a">
+								<i class="fa-regular fa-user"></i>
+							</div>
+							<p class="profile-btn-p">Account</p>
+						</div>
+						<ul class="dropdown-menu">
+							<li class="drp_itm drp_itm1">
+								<div class="drp_link drp_link1 flex-i">
+									<div class="drp-prf flex-a r-50">
+										<img src="assets/images/prf.png" alt="" class="drp-prf-img r-50">
+									</div>
+									Mohammed A7med
+								</div>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-regular fa-user"></i>
+								</div>
+								<a  href="account.html" class="drp_link">My Profile</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-bag-shopping"></i>
+								</div>
+								<a class="drp_link" href="orders.html">My Order</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-regular fa-heart"></i>
+								</div>
+								<a class="drp_link" href="wishlist.html">My Wishlist</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-magnifying-glass-arrow-right"></i>
+								</div>
+								<a class="drp_link" href="recent-views.html">Recent View</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-cart-arrow-down"></i>
+								</div>
+								<a class="drp_link" href="cart.html">My Cart</a>
+							</li>
+							<li class="drp_itm drp_itm2 flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-arrow-right-from-bracket"></i>
+								</div>
+								<a class="drp_link" href="#">Logout</a>
+							</li>
+						</ul>
+					</div>
+					<div class="dropdown dropdown2">
+						<div class="profile-btn flex-i dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="profile-btn-hol r-50 flex-a position-relative">
+								<i class="fa-solid fa-cart-plus"></i>
+								<span class="profile-btn-hol-span">13</span>
+							</div>
+							<div>
+								<p class="profile-btn-p">Cart</p>
+								<p class="profile-btn-prc">4,560 AED</p>
+							</div>
+						</div>
+						<ul class="dropdown-menu dropdown-menu2">
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd2.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											1
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd3.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											1
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd1.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											14
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-a">
+								<a href="cart.html" class="drp-me-btn flex-a">View Cart</a>
+								<a href="checkout.html" class="drp-me-btn drp-me-btn1 flex-a">Checkout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<nav class="nav3 nav3-web">
+			<div class="container">
+				<div class="nav3-wrpr flex-i justify-between">
+					<a href="#" class="logo flex-i justify-between">
+						<img src="assets/images/logo.png" alt="" class="logo-img dark-none">
+						<img src="assets/images/logo-white.png" alt="" class="logo-img d-none dark-show">
+					</a>
+					<div class="searchbox flex-i">
+						<div class="dropdown">
+							<div class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+								All
+							</div>
+							<ul class="dropdown-menu dropdown-srch">
+								<li class="dropdown-srch-list">
+									Components & Storage
+								</li>
+								<li class="dropdown-srch-list">
+									Electronics
+								</li>
+								<li class="dropdown-srch-list">
+									Software & Services
+								</li>
+								<li class="dropdown-srch-list">
+									Gaming
+								</li>
+								<li class="dropdown-srch-list">
+									Networking
+								</li>
+								<li class="dropdown-srch-list">
+									Office Solutions
+								</li>
+								<li class="dropdown-srch-list">
+									Apparel & Accessories
+								</li>
+								<li class="dropdown-srch-list">
+									Automotive & Industrial
+								</li>
+								<li class="dropdown-srch-list">
+									Office Solutions
+								</li>
+							</ul>
+						</div>
+						<input type="text" placeholder="I'm looking for" class="searchbox-input">
+						<div class="searchbox-input-box">
+							<p class="searchbox-input-box-p">Popular Product Searches</p>
+							<div class="flex flex-wrap gap-3">
+								<div class="searchbox-tab">laptop</div>
+								<div class="searchbox-tab">Gaming</div>
+								<div class="searchbox-tab">Smart Watch</div>
+								<div class="searchbox-tab">Keyboard</div>
+							</div>
+						</div>
+						<button class="searchbox-btn">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</div>
+					<ul class="navlist flex-i">
+						<li>
+							<a href="/" class="navlist-link active">Home</a>
+						</li>
+						<li>
+							<a href="#" class="navlist-link">New</a>
+						</li>
+						<li>
+							<a href="#" class="navlist-link">Networks & Security</a>
+						</li>
+						<li>
+							<a href="#" class="navlist-link">Servers & Storage</a>
+						</li>
+						<li>
+							<a href="services.html" class="navlist-link">Online Services</a>
+						</li>
+						<li>
+							<a href="build-pc.html" class="navlist-link">
+								Build a PC
+								<div class="navlist-link-new">New</div>
+							</a>
+						</li>
+					</ul>
+					<a href="orders.html" class="orders-btn flex-a">
+						<i class="fa-solid fa-basket-shopping"></i>
+						My Order
+					</a>
+				</div>
+			</div>
+		</nav>
+		<nav class="nav1 nav1-mob">
+			<div class="container">
+				<div class="nav1-wrpr">
+					<img src="assets/images/icons/pc.svg" alt="" class="nav1-wrpr-img">
+					<h1 class="nav1-wrpr-hdng">Now With Our Online Services We can reach you wherever you are</h1>
+					<a href="#" class="nav1-btn flex-a">
+						Order Now
+					</a>
+				</div>
+			</div>
+		</nav>
+		<nav class="nav2-mob">
+			<div class="container">
+				<div class="nav2-mob-wrpr flex-i">
+					<div class="nav2-mob-btn">
+						<i class="fa-solid fa-bars-staggered"></i>
+					</div>
+					<a href="#" class="nav2-mob-logo dark-none"><img src="assets/images/logo.png" alt="" class="nav2-mob-logo-img"></a>
+					<a href="#" class="nav2-mob-logo d-none dark-show"><img src="assets/images/logo-white.png" alt="" class="nav2-mob-logo-img"></a>
+					<div class="delivery-modal-btn flex-i" data-bs-toggle="modal" data-bs-target="#deliveryModal">
+						<div class="delivery-modal-btn-box1 flex-a">
+							<i class="fa-solid fa-location-dot"></i>
+						</div>
+						<div class="delivery-modal-btn-box2 flex-i">
+							Delivery To
+							<i class="fa-solid fa-caret-down"></i>
+						</div>
+					</div>
+					<div class="dropdown dropdown1">
+						<div class="profile-btn flex-i dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="profile-btn-hol profile-btn-hol1 r-50 flex-a">
+								<i class="fa-regular fa-user"></i>
+							</div>
+							<p class="profile-btn-p">Account</p>
+						</div>
+						<ul class="dropdown-menu">
+							<li class="drp_itm drp_itm1">
+								<div class="drp_link drp_link1 flex-i">
+									<div class="drp-prf flex-a r-50">
+										<img src="assets/images/prf.png" alt="" class="drp-prf-img r-50">
+									</div>
+									Mohammed A7med
+								</div>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-regular fa-user"></i>
+								</div>
+								<a  href="account.html" class="drp_link">My Profile</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-bag-shopping"></i>
+								</div>
+								<a class="drp_link" href="orders.html">My Order</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-regular fa-heart"></i>
+								</div>
+								<a class="drp_link" href="wishlist.html">My Wishlist</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-magnifying-glass-arrow-right"></i>
+								</div>
+								<a class="drp_link" href="recent-views.html">Recent View</a>
+							</li>
+							<li class="drp_itm flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-cart-arrow-down"></i>
+								</div>
+								<a class="drp_link" href="cart.html">My Cart</a>
+							</li>
+							<li class="drp_itm drp_itm2 flex-i">
+								<div class="drp_itmbox">
+									<i class="fa-solid fa-arrow-right-from-bracket"></i>
+								</div>
+								<a class="drp_link" href="#">Logout</a>
+							</li>
+						</ul>
+					</div>
+					<div class="dropdown dropdown2">
+						<div class="profile-btn flex-i dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<div class="profile-btn-hol r-50 flex-a position-relative">
+								<i class="fa-solid fa-cart-plus"></i>
+								<span class="profile-btn-hol-span">13</span>
+							</div>
+							<div>
+								<p class="profile-btn-p">Cart</p>
+								<p class="profile-btn-prc">4,560 AED</p>
+							</div>
+						</div>
+						<ul class="dropdown-menu dropdown-menu2">
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd2.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											1
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd3.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											1
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-i">
+								<div class="dropdown-menu-box-inn">
+									<img src="assets/images/products/prd1.png" alt="" class="dropdown-menu-box-inn-img">
+								</div>
+								<div class="dropdown-menu-box-bdy">
+									<div class="dropdown-menu-box-bdy-r flex-i justify-between">
+										<a href="product-details.html" class="dropdown-menu-box-bdy-h">
+											Lenovo Thinkbook 15 
+											20VEA0MNAK laptop
+										</a>
+										<button class="dropdown-menu-box-bdy-btn flex-a">
+											<i class="fa-solid fa-xmark"></i>
+										</button>
+									</div>
+									<div class="dropdown-menu-box-bdy-r mb-0 flex-i justify-between">
+										<h1 class="drpprc-h">
+											4,560 <span>AED</span>
+										</h1>
+										<div class="drpprc-qty flex-i">
+											<i class="fa-solid fa-xmark"></i>
+											14
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown-menu-box flex-a">
+								<a href="cart.html" class="drp-me-btn flex-a">View Cart</a>
+								<a href="checkout.html" class="drp-me-btn drp-me-btn1 flex-a">Checkout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
+		<nav class="nav3-mob">
+			<div class="container">
+				<div class="nav3-mob-wrpr flex-i justify-between">
+					<div class="nav2-cash-delivery flex-a">
+						<img src="assets/images/icons/cash-on-delivery.svg" alt="" class="nav2-cash-delivery-img">
+						<p class="nav2-cash-delivery-p">Cash on Delivery in UAE</p>
+					</div>
+					<div class="free-shipping flex-a">
+						<img src="assets/images/icons/truck.svg" alt="" class="free-shipping-img dark-none">
+						<img src="assets/images/icons/truck-white.png" alt="" class="free-shipping-img d-none dark-show">
+						<p class="free-shipping-p">Free Shipping in UAE above 2500$</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="mobileside">
+			<div class="mobileside-r1">
+				<div class="mobileside-r1-wrpr">
+					<div class="mobileside-pf">
+						<img src="assets/images/gaming.png" alt="" class="mobileside-pg-img">
+					</div>
+					<p class="mobileside-pf-p">Admin</p>
+				</div>
+				<a href="orders.html" class="orders-btn flex-a">
+					<i class="fa-solid fa-basket-shopping"></i>
+					My Order
+				</a>
+			</div>
+			<div class="mobileside-r1">
+				<div class="calbox flex">
+					<div class="calbox-inn flex-a">
+						<i class="fa-solid fa-headset"></i>
+					</div>
+					<div class="calbox-inn2">
+						<div class="calbox-inn2-r flex-i">
+							<h1 class="calbox-inn2-h">Call Us Now :</h1>
+							<a href="tel:+971 535488721" class="calbox-inn2-p">+971 535488721</a>
+						</div>
+						<div class="calbox-inn2-r flex-i">
+							<h1 class="calbox-inn2-h">Email :</h1>
+							<a href="mailto: info@skilledtech.ae" class="calbox-inn2-p calbox-inn2-p2"> info@skilledtech.ae</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="mobil-list">
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link active">Home</a>
+				</li>
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link">New</a>
+				</li>
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link">Networks & Security</a>
+				</li>
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link">Servers & Storage</a>
+				</li>
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link">Online Services</a>
+				</li>
+				<li class="mobil-list__item">
+					<a href="#" class="mobil-list__link">
+						Build a PC
+						<div class="navlist-link-new2">New</div>
+					</a>
+				</li>
+			</ul>
+			<div class="mobileside-footer">
+				<div class="mobileside-footer-Box mb-25">
+					<h1 class="ftrBox-h">Follow us</h1>
+					<ul class="smlist flex-i m-0">
+						<li class="smlist-item">
+							<a href="#" class="smlist-link">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="smlist-item">
+							<a href="#" class="smlist-link">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+						</li>
+						<li class="smlist-item">
+							<a href="#" class="smlist-link">
+								<i class="fa-brands fa-instagram"></i>
+							</a>
+						</li>
+						<li class="smlist-item">
+							<a href="#" class="smlist-link">
+								<i class="fa-brands fa-linkedin-in"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="cards-list flex-i mb-15">
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card1.png" alt="" class="cards-list-img">
+					</li>
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card2.png" alt="" class="cards-list-img">
+					</li>
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card3.png" alt="" class="cards-list-img">
+					</li>
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card4.png" alt="" class="cards-list-img">
+					</li>
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card5.png" alt="" class="cards-list-img">
+					</li>
+					<li class="cards-list-item">
+						<img src="assets/images/icons/card6.png" alt="" class="cards-list-img">
+					</li>
+				</ul>
+				<button class="mobileside-logout">
+					<i class="fa-solid fa-arrow-right-from-bracket"></i>
+					Logout
+				</button>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+	<div class="proDetailsPage">
+		<div class="container">
+			<div class="proDetailsPage-wrpr flex justify-between">
+				<div class="pdCol1">
+					<div class="pdCol1-side1 swiper" thumbsSlider="" >
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="pdCol1-side1-box1 flex-a">
+									<img src="assets/images/products/prd23.png" alt="" class="pdCol1-side1-box1-img">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="pdCol1-side1-box1 flex-a">
+									<img src="assets/images/products/prd24.png" alt="" class="pdCol1-side1-box1-img">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="pdCol1-side1-box1 flex-a">
+									<img src="assets/images/products/prd23.png" alt="" class="pdCol1-side1-box1-img">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="pdCol1-side1-box1 flex-a">
+									<img src="assets/images/products/prd25.png" alt="" class="pdCol1-side1-box1-img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pdCol1-side2">
+						<button class="pd-box1-s1-modl-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+							<i class="fa-solid fa-magnifying-glass-plus"></i>
+						</button>
+						<div class="pdCol1-side2-slider swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="pdCol1-side2-slide flex-a">
+										<img src="assets/images/products/prd23.png" alt="" class="pdCol1-side2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pdCol1-side2-slide flex-a">
+										<img src="assets/images/products/prd24.png" alt="" class="pdCol1-side2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pdCol1-side2-slide flex-a">
+										<img src="assets/images/products/prd23.png" alt="" class="pdCol1-side2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pdCol1-side2-slide flex-a">
+										<img src="assets/images/products/prd25.png" alt="" class="pdCol1-side2-img">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-prev pdCol1Arr pdCol1Arr1 flex-a r-50">
+								<i class="fa-solid fa-chevron-left"></i>
+							</div>
+							<div class="swiper-button-next pdCol1Arr pdCol1Arr2 flex-a r-50">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<!-- pdCol1 end -->
+				<div class="pdCol2">
+					<div class="pdCol2-inner">
+						<h1 class="pd-box2-inner-hdr"> 
+							Core i5 12th Gen 12400F (2.50GHz) 16GB DDR4 1TB HDD 512 GB PCIe SSD NVIDIA GeForce RTX 3050 Windows 11 Home 64-bit 
+						</h1>
+						<div class="pdCol2-inner-row flex-i justify-between">
+							<div class="pdCol2-prc flex items-end">
+								56000 <span>AED</span>
+							</div>
+							<div class="pdCol2-prc-old">2,000 AED</div>
+							<div class="pdCol2-off flex-a">
+								<i class="fa-regular fa-circle-check"></i>
+								20% off
+							</div>
+						</div>
+					</div>
+					<div class="pdCol2-inner-row flex-i justify-between">
+						<div class="pdCol2-off flex-a pdCol2-off1">
+							<i class="fa-solid fa-star"></i>
+							4.9 Ratings
+						</div>
+						<div class="pdCol2-off flex-a pdCol2-off2">
+							2.5K Reviews
+						</div>
+						<div class="pdCol2-off flex-a pdCol2-off3">
+							<i class="fa-regular fa-eye"></i>
+							Views 2.5K
+						</div>
+					</div>
+					<ul class="pdCol2-list">
+						<li class="pdCol2-item">
+							Intel Core i5 12th Gen 12400F (2.50GHz)
+						</li>
+						<li class="pdCol2-item">
+							16GB DDR4
+						</li>
+						<li class="pdCol2-item">
+							1TB HDD 512 GB PCIe SSD
+						</li>
+						<li class="pdCol2-item">
+							Windows 11 Home 64-bit
+						</li>
+						<li class="pdCol2-item">
+							NVIDIA GeForce RTX 3050 8 GB GDDR6
+						</li>
+						<li class="pdCol2-item">
+							Virtual Reality Ready
+						</li>
+					</ul>
+					<div class="pdCol2-freqently">
+						<p class="pdCol2-freqently-h">Frequently Bought Together</p>
+						<div class="pdCol2-freqently-wrpr flex justify-between items-center">
+							<div class="pdCol2-freqently-box position-relative">
+								<div class="checkout-b1 checkout-b1--frqBox">
+									<input type="checkbox" name="" value="" id="mkdef5" class="checkout-b1-chkbx">
+									<label for="mkdef5" class="checkout-b1-chkbx-lbl">
+										<img src="assets/images/icons/tick.svg" alt="" class="filt_chkbx_labelicn">
+									</label>
+								</div>
+								<div class="pdCol2-freqently-box-hdr flex-a">
+									<img src="assets/images/products/prd23.png" alt="" class="pdCol2-freqently-box-img">
+								</div>
+								<div class="pdCol2-freqently-box-bdy">
+									<a href="#" class="pdCol2-freqently-box-p">
+										Acer Gaming Desktop Nitro 50 N50-640-UR13
+									</a>
+									<div class="pdCol2-r flex-i justify-between">
+										<h1 class="pdCol2-r-h">
+											3,477
+											<span>AED</span>
+										</h1>
+										<div class="flex-i gap-1">
+											<ul class="rat-li-cmt flex-i">
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+											</ul>
+											<p class="rat-li-cmt-p">(20)</p>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="pdCol2centered flex-a r-50">
+								<i class="fa-solid fa-plus"></i>
+							</div>
+							<div class="pdCol2-freqently-box position-relative">
+								<div class="checkout-b1 checkout-b1--frqBox">
+									<input type="checkbox" name="" value="" id="mkdef4" class="checkout-b1-chkbx">
+									<label for="mkdef4" class="checkout-b1-chkbx-lbl">
+										<img src="assets/images/icons/tick.svg" alt="" class="filt_chkbx_labelicn">
+									</label>
+								</div>
+								<div class="pdCol2-freqently-box-hdr flex-a">
+									<img src="assets/images/products/prd2.png" alt="" class="pdCol2-freqently-box-img">
+								</div>
+								<div class="pdCol2-freqently-box-bdy">
+									<a href="#" class="pdCol2-freqently-box-p">
+										Acer Gaming Desktop Nitro 50 N50-640-UR13
+									</a>
+									<div class="pdCol2-r flex-i justify-between">
+										<h1 class="pdCol2-r-h">
+											3,477
+											<span>AED</span>
+										</h1>
+										<div class="flex-i gap-1">
+											<ul class="rat-li-cmt flex-i">
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+												<li>
+													<i class="fa-solid fa-star"></i>
+												</li>
+											</ul>
+											<p class="rat-li-cmt-p">(20)</p>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="pdCol2-freqently-btn">Buy 2 Together For 6,954 AED</button>
+					</div>
+				</div>
+				<div class="pdCol3">
+					<div class="pd-box3-inn">
+						<p class="pd-box3-inn-h">Quantity</p>
+						<div class="flex-i pd-box3-inn-row justify-between">
+							<div class="cartCardTpB2 flex justify-between">
+								<button class="cartCardTpB2-b1 cart-qty-minus">
+									<i class="fa-solid fa-minus"></i>
+								</button>
+								<div class="cartCardTpB2-b1">
+									<input type="number" class="cartCardTpB2-b1-input qty" placeholder="1">
+								</div>
+								<button class="cartCardTpB2-b1 cart-qty-plus">
+									<i class="fa-solid fa-plus"></i>
+								</button>
+							</div>
+							<div class="pd-box3-inn-row-p">in Stock: <span>13</span> </div>
+						</div>
+						<div class="flex-i pd-box3-inn-row justify-between">
+							<p class="pd-box3-inn-row-p3">Total Price  : </p>
+							<div class="cart-prc flex items-end">
+								<span>AED</span> 560 
+							</div>
+						</div>
+						<a href="#" class="pd-box3-inn-row-btn flex-a mb-4">
+							<i class="fa-solid fa-cart-shopping"></i>
+							Add To Cart
+						</a>
+						<div class="pd-box3-inn-row-btn pd-box3-inn-row-btn1 flex-a">
+							<input type="checkbox" class="wishlist-input" id="ws1">
+							<label for="ws1" class="wishlist-label d-block">
+								<i class="fa-regular fa-heart"></i>
+								<i class="fa-solid fa-heart"></i>
+							</label>
+							To Wishlist
+						</div>
+					</div>
+					<img src="assets/images/icons/acer.png" alt="" class="pdCol3-img flex-a">
+					<div class="pd-box3-inn2 flex-i justify-between">
+						<p class="pd-box3-inn-p3">Share With</p>
+						<ul class="pd-box3-inn-sm-list flex-i ">
+							<li>
+								<a href="#">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-brands fa-snapchat"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="pd-box3-inn2-seprator"></div>
+					<div class="pd-box3-inn3">
+						<div class="pd-box1-inner-row flex-i">
+							<div class="pd-box1-inner-row-b">
+								<i class="fa-solid fa-truck-fast"></i>
+							</div>
+							<p class="pd-box1-inner-p">Free shipping on all orders from UAE</p>
+						</div>
+						<div class="pd-box1-inner-row flex-i">
+							<div class="pd-box1-inner-row-b">
+								<i class="fa-regular fa-credit-card"></i>
+							</div>
+							<p class="pd-box1-inner-p">We offer a safe payment guarantee</p>
+						</div>
+						<div class="pd-box1-inner-row flex-i">
+							<div class="pd-box1-inner-row-b">
+								<i class="fa-solid fa-money-bill-transfer"></i>
+							</div>
+							<p class="pd-box1-inner-p">14-day money-back guarantee</p>
+						</div>
+						<div class="pd-box1-inner-row flex-i">
+							<div class="pd-box1-inner-row-b">
+								<i class="fa-solid fa-headset"></i>
+							</div>
+							<p class="pd-box1-inner-p">We support online 24 hours a day</p>
+						</div>
+						<div class="pd-box1-inner-row flex-i">
+							<div class="pd-box1-inner-row-b">
+								<i class="fa-solid fa-building-lock"></i>
+							</div>
+							<p class="pd-box1-inner-p">We provide 6 month warranty</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- product details end -->
+	<div class="proDetCmnt">
+		<div class="container">
+			<div class="proDetCmnt-wrpr flex">
+				<div class="proDetCmnt-col1" role="tablist">
+					<button class="proDetCmnt-col1-tab active" id="descriptionTab" data-bs-toggle="tab" data-bs-target="#descriptionCont" type="button" role="tab" aria-controls="descriptionCont" aria-selected="true">
+						Description
+					</button>
+					<button class="proDetCmnt-col1-tab" id="reviewsTab" data-bs-toggle="tab" data-bs-target="#reviewsCont" type="button" role="tab" aria-controls="reviewsCont" aria-selected="false">
+						Reviews
+						<span class="flex-a r-50">32</span>
+					</button>
+				</div>
+				<div class="proDetCmnt-col2">
+					<div class="tab-content" id="nav-tabContent">
+						<div class="proDetCmnt-cntnt tab-pane fade show active" id="descriptionCont" role="tabpanel" aria-labelledby="descriptionCont-tab" tabindex="0">
+							<div class="proDetCmnt-cntnt-box">
+								<h1 class="proDetCmnt-cntnt-h">Model</h1>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Brand  : </div>
+									<div class="proDetCmnt-cntnt-desc">Acer</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Series  :  </div>
+									<div class="proDetCmnt-cntnt-desc">Nitro 50 </div>
+								</div>
+							</div>
+							<div class="proDetCmnt-cntnt-box">
+								<h1 class="proDetCmnt-cntnt-h">Product Inof</h1>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Type  :  </div>
+									<div class="proDetCmnt-cntnt-desc">Gaming & Entertainment</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Processor :  </div>
+									<div class="proDetCmnt-cntnt-desc">Intel Core i5-12400F 2.50 GHz </div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Memory  :   </div>
+									<div class="proDetCmnt-cntnt-desc">16 GB DDR4 3200</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Storage  :   </div>
+									<div class="proDetCmnt-cntnt-desc">512 GB M.2 2280 PCIe SSD + 1 TB 7200 RPM SATA HDD</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Graphics  :   </div>
+									<div class="proDetCmnt-cntnt-desc">NVIDIA GeForce RTX 3050 8 GB GDDR6</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Operating System :     </div>
+									<div class="proDetCmnt-cntnt-desc">Windows 11 Home 64-bit</div>
+								</div>
+							</div>
+							<div class="proDetCmnt-cntnt-box">
+								<h1 class="proDetCmnt-cntnt-h">CPU</h1>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">CPU Type  :   </div>
+									<div class="proDetCmnt-cntnt-desc">Intel Core i5 12th Gen</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">CPU Speed :   </div>
+									<div class="proDetCmnt-cntnt-desc">12400F (2.50GHz)</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Memory  :   </div>
+									<div class="proDetCmnt-cntnt-desc">16 GB DDR4 3200</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Storage  :   </div>
+									<div class="proDetCmnt-cntnt-desc">512 GB M.2 2280 PCIe SSD + 1 TB 7200 RPM SATA HDD</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Graphics  :   </div>
+									<div class="proDetCmnt-cntnt-desc">NVIDIA GeForce RTX 3050 8 GB GDDR6</div>
+								</div>
+								<div class="proDetCmnt-cntnt-row flex-i">
+									<div class="proDetCmnt-cntnt-heading">Operating System :     </div>
+									<div class="proDetCmnt-cntnt-desc">Windows 11 Home 64-bit</div>
+								</div>
+							</div>
+						</div>
+						<div class="proDetCmnt-cntnt tab-pane fade" id="reviewsCont" role="tabpanel" aria-labelledby="reviewsCont-tab" tabindex="0">
+							<div class="proDetCmnt-cntnt-wrpr flex justify-between">
+								<div class="proDetCmnt-cntnt-b1">
+									<textarea placeholder="Write Comment" class="reviewsBox3-textarea"></textarea>
+									<div class="reviewsBox3-row flex-i gap-4 justify-between">
+										<div class="reviewsBox3-row-inn">
+											You must be logged in to post a review.
+										</div>
+										<button class="reviewsBox3-row-inn2 flex-a">Publish</button>
+									</div>
+								</div>
+								<div class="reviewsBox-seprator"></div>
+								<div class="reviewsBox2">
+									<div class="reviewsBoxInner-s1 flex-i mb-3">
+										<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+										<div class="reviewsBoxInner-s1-box">
+											<h1 class="reviewsBoxInner-s1-h reviewsBoxInner-s1-h--a">Add Rating</h1>
+										</div>
+									</div>
+									<div class="reviewsBoxInner-row flex-i gap-3 mb-3">
+										<input type="radio" name="rating" value="rating5" id="rating5" class="reviewsBoxInner-row-input">
+										<label for="rating5" class="reviewsBoxInner-label">
+											<div></div>
+										</label>
+										<ul class="flex-i rating gap-2">
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+										</ul>
+									</div>
+									<div class="reviewsBoxInner-row flex-i gap-3 mb-3">
+										<input type="radio" name="rating" value="rating4" id="rating4" class="reviewsBoxInner-row-input">
+										<label for="rating4" class="reviewsBoxInner-label">
+											<div></div>
+										</label>
+										<ul class="flex-i rating gap-2">
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+										</ul>
+									</div>
+									<div class="reviewsBoxInner-row flex-i gap-3 mb-3">
+										<input type="radio" name="rating" value="rating5" id="rating3" class="reviewsBoxInner-row-input">
+										<label for="rating3" class="reviewsBoxInner-label">
+											<div></div>
+										</label>
+										<ul class="flex-i rating gap-2">
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+										</ul>
+									</div>
+									<div class="reviewsBoxInner-row flex-i gap-3 mb-3">
+										<input type="radio" name="rating" value="rating5" id="rating2" class="reviewsBoxInner-row-input">
+										<label for="rating2" class="reviewsBoxInner-label">
+											<div></div>
+										</label>
+										<ul class="flex-i rating gap-2">
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+										</ul>
+									</div>
+									<div class="reviewsBoxInner-row flex-i gap-3 mb-3">
+										<input type="radio" name="rating" value="rating5" id="rating1" class="reviewsBoxInner-row-input">
+										<label for="rating1" class="reviewsBoxInner-label">
+											<div></div>
+										</label>
+										<ul class="flex-i rating gap-2">
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star-grey.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+											<li class="flex-i">
+												<img src="assets/images/icons/star.svg" alt="" class="reviewsBoxInner-s1-img">
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="reviewsBox">
+									<div class="reviewsBoxInner">
+										<div class="reviewsBoxInner-s1 flex-i">
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+												<path id="XMLID_328_" d="M31.886,13.271a2.082,2.082,0,0,0-1.66-1.413L22.4,10.685,18.871,3.2a2.058,2.058,0,0,0-3.743,0l-3.473,7.456-7.882,1.2a2.084,2.084,0,0,0-1.66,1.413,2.147,2.147,0,0,0,.5,2.192l5.7,5.835L6.965,29.523a2.126,2.126,0,0,0,.869,2.1A2.024,2.024,0,0,0,10,31.744l6.952-3.883L24,31.744a2.028,2.028,0,0,0,2.164-.122,2.124,2.124,0,0,0,.869-2.1l-1.349-8.235,5.7-5.824A2.147,2.147,0,0,0,31.886,13.271Z" transform="translate(-1.999 -2)" fill="#ffd500"></path>
+											</svg>
+											<div class="reviewsBoxInner-s1-box">
+												<h1 class="reviewsBoxInner-s1-h">4.9 Rating</h1>
+												<p class="reviewsBoxInner-s1-p">Based on 25 reviews</p>
+											</div>
+										</div>
+										<div class="reviewsBoxInner-row flex-i">
+											<p class="reviewsBoxInner-row-p">5</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar w-100" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+										<div class="reviewsBoxInner-row flex-i">
+											<p class="reviewsBoxInner-row-p">4</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar w-75" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+										<div class="reviewsBoxInner-row flex-i">
+											<p class="reviewsBoxInner-row-p">3</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar w-50" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+										<div class="reviewsBoxInner-row flex-i">
+											<p class="reviewsBoxInner-row-p">2</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar w-25" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+										<div class="reviewsBoxInner-row flex-i">
+											<p class="reviewsBoxInner-row-p">1</p>
+											<div class="progress">
+												<div class="progress-bar progress-bar w-15" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-wrpr2">
+								<div class="reviews-wrpr2-box">
+									<div class="reviews-wrpr2-box-holder">
+										<div class="reviews-wrpr2-row flex justify-between">
+											<div class="flex-i gap-2">
+												<div class="reviews-wrpr2Box">
+													M
+												</div>
+												<div>
+													<h1 class="reviews-wrpr2Box-h">Khannsa Ali</h1>
+													<ul class="rat-li-cmt flex-i gap-1">
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<p class="reviews-wrpr2-p">24 Oct, 2023</p>
+										</div>
+										<p class="reviews-wrpr2-row-p">
+											here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+										</p>
+									</div>
+								</div>
+								<div class="reviews-wrpr2-box">
+									<div class="reviews-wrpr2-box-holder">
+										<div class="reviews-wrpr2-row flex justify-between">
+											<div class="flex-i gap-2">
+												<div class="reviews-wrpr2Box">
+													M
+												</div>
+												<div>
+													<h1 class="reviews-wrpr2Box-h">Khannsa Ali</h1>
+													<ul class="rat-li-cmt flex-i gap-1">
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<p class="reviews-wrpr2-p">24 Oct, 2023</p>
+										</div>
+										<p class="reviews-wrpr2-row-p">
+											here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+										</p>
+									</div>
+								</div>
+								<div class="reviews-wrpr2-box">
+									<div class="reviews-wrpr2-box-holder">
+										<div class="reviews-wrpr2-row flex justify-between">
+											<div class="flex-i gap-2">
+												<div class="reviews-wrpr2Box">
+													M
+												</div>
+												<div>
+													<h1 class="reviews-wrpr2Box-h">Khannsa Ali</h1>
+													<ul class="rat-li-cmt flex-i gap-1">
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+														<li>
+															<i class="fa-solid fa-star"></i>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<p class="reviews-wrpr2-p">24 Oct, 2023</p>
+										</div>
+										<p class="reviews-wrpr2-row-p">
+											here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-wrpr2-btn flex-a">
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- product details tabs -->
+	<div class="simiPro">
+		<div class="container">
+			<div class="simiPro-slider swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd11.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd12.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd14.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd15.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd16.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+					<div class="swiper-slide">
+						<div class="subpage-prdts-card">
+                            <div class="subpage-prdts-card-hdr">
+                                <img src="assets/images/products/prd17.png" alt="" class="subpage-prdts-card-img">
+                            </div>
+                            <div class="subpage-prdts-card-bdy">
+                                <a href="#" class="subpage-prdts-card-link">
+                                    GIGABYTE AORUS GeForce RTX 3080 Video Card GV...
+                                </a>
+                                <div class="brndCrd-r flex-i justify-between mb-3">
+                                    <h1 class="brndCrd-prc">
+                                        1,999 <span>AED</span>
+                                    </h1>
+                                    <div class="brndCrd-prc-old">2,200 AED</div>
+                                </div>
+                                <div class="ratingList-wrpr flex-i gap-2 ratingList-wrpr--subpPrdcrd">
+                                    <ul class="ratingList flex-i">
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star checked"></i>
+                                        </li>
+                                        <li class="flex-a">
+                                            <i class="fa-solid fa-star "></i>
+                                        </li>
+                                    </ul>
+                                    <div class="rating-count">(30)</div>
+                                </div>
+                            </div>
+							<div class="subpage-prdts-card-r subpage-prdts-card-ftr flex-i justify-between">
+								<div class="subpage-prdts-voucher">
+									Save 10%
+								</div>
+								<a href="#" class="subpage-prdts-card-btn">Start Order</a>
+							</div>
+                        </div>
+					</div>
+				</div>
+				<div class="swiper-button-prev pdCol1Arr pdCol1Arr1 flex-a r-50">
+					<i class="fa-solid fa-chevron-left"></i>
+				</div>
+				<div class="swiper-button-next pdCol1Arr pdCol1Arr2 flex-a r-50">
+					<i class="fa-solid fa-chevron-right"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- similar products slider end -->
+	<div class="broucher1">
+		<div class="container">
+			<div class="broucher1-box position-relative">
+				<h1 class="bannerCol2-slide-hdng2">
+					BUILD YOUR 
+					GAMIN PC
+				</h1>
+				<a href="#" class="bannerCol2-slide-btn2 flex-a">Shop Now</a>
+				<img src="assets/images/broucher1.jpg" alt="" class="broucher1-img">
+			</div>
+		</div>
+	</div>
+    <!-- broucher1 end -->
+	<nav class="nav1">
+		<div class="container">
+			<div class="nav1-wrpr">
+				<h1 class="nav1-wrpr-hdng">Now With Our Online Services We can reach you wherever you are</h1>
+				<a href="#" class="nav1-btn flex-a">
+					Order Now
+				</a>
+				<img src="assets/images/icons/pc.svg" alt="" class="nav1-wrpr-img">
+			</div>
+		</div>
+	</nav>
+	<!-- nav end -->
+	<div class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-wrpr flex justify-between flex-wrap">
+					<div class="footerBox">
+						<h1 class="footerBox-h">Components & Storage</h1>
+						<ul class="footerBox-list">
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">CPUS / Processors</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Memory</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Motherboards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">GPUs & Video Graphics Devices</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Computer Cases</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Fans & PC </a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Power Supplies</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Sound Cards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Server Components</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footerBox">
+						<h1 class="footerBox-h">Computer Sysytem</h1>
+						<ul class="footerBox-list">
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">CPUS / Processors</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Memory</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Motherboards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">GPUs & Video Graphics Devices</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Computer Cases</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Fans & PC </a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Power Supplies</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Sound Cards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Server Components</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footerBox">
+						<h1 class="footerBox-h">Gaming</h1>
+						<ul class="footerBox-list">
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">CPUS / Processors</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Memory</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Motherboards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">GPUs & Video Graphics Devices</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Computer Cases</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Fans & PC </a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Power Supplies</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Sound Cards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Server Components</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footerBox">
+						<h1 class="footerBox-h">Networking</h1>
+						<ul class="footerBox-list">
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">CPUS / Processors</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Memory</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Motherboards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">GPUs & Video Graphics Devices</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Computer Cases</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Fans & PC </a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Power Supplies</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Sound Cards</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Server Components</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footerBox footerBox--a">
+						<h1 class="footerBox-h">Help</h1>
+						<ul class="footerBox-list">
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Help Center</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Track an Order</a>
+							</li>
+							<li class="footerBox-list-item">
+								<a href="#" class="footerBox-list-link">Return an Item</a>
+							</li>
+						</ul>
+						<div class="footerBox-btm">
+							<h1 class="footerBox-btm-h">Contact us</h1>
+							<a href="mailto:info@skilledtech.ae" class="footerBox-btm-lnk d-block mb-2">info@skilledtech.ae</a>
+							<div class="flex-i gap-2 flex-wrap">
+								<a href="tel:+971502166175" class="footerBox-btm-lnk">+971502166175</a>
+								<div class="footerBox-btm-lnk">-</div>
+								<a href="tel:+971502166175" class="footerBox-btm-lnk">+971502166175</a>
+							</div>
+						</div>
+					</div>
+					<div class="footerBox2">
+						<div class="footerBox2-slider swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="footerBox2-box">
+										<img src="assets/images/big-screen.png" alt="" class="footerBox2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="footerBox2-box">
+										<img src="assets/images/gaming.png" alt="" class="footerBox2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="footerBox2-box">
+										<img src="assets/images/a1.png" alt="" class="footerBox2-img">
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="footerBox2-box">
+										<img src="assets/images/a2.png" alt="" class="footerBox2-img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-wrpr2 flex justify-between flex-wrap">
+					<div class="ftrBox ftrBox1">
+						<h1 class="ftrBox-h">Skilledtech Store in</h1>
+						<select name="" id="" class="form-select ftrBox-select">
+							<option value="" selected disabled>Select your state</option>
+							<option value="">Abu Dhabi</option>
+							<option value="">Dubai</option>
+							<option value="">Ajman</option>
+							<option value="">Sharjah </option>
+							<option value="">Alain</option>
+						</select>
+					</div>
+					<div class="ftrBox ftrBox2">
+						<h1 class="ftrBox-h">Smart Way To Shop</h1>
+						<ul class="ftrBox-list flex">
+							<li class="ftrBox-list-item">
+								<a href="#" class="ftrBox-list-link">
+									<img src="assets/images/icons/huawei.png" alt="" class="ftrBox-list-img">
+								</a>
+							</li>
+							<li class="ftrBox-list-item">
+								<a href="#" class="ftrBox-list-link">
+									<img src="assets/images/icons/appstores.png" alt="" class="ftrBox-list-img">
+								</a>
+							</li>
+							<li class="ftrBox-list-item">
+								<a href="#" class="ftrBox-list-link">
+									<img src="assets/images/icons/apple-store.png" alt="" class="ftrBox-list-img">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="ftrBox ftrBox3">
+						<h1 class="ftrBox-h">Follow us</h1>
+						<ul class="smlist flex-i">
+							<li class="smlist-item">
+								<a href="#" class="smlist-link">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="smlist-item">
+								<a href="#" class="smlist-link">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+							</li>
+							<li class="smlist-item">
+								<a href="#" class="smlist-link">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</li>
+							<li class="smlist-item">
+								<a href="#" class="smlist-link">
+									<i class="fa-brands fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-btm">
+			<div class="container">
+				<div class="footer-btm-wrpr flex-i justify-between flex-wrap">
+					<p class="footer-btm-p">© 2023 Cartlow. All Rights Reserved.</p>
+					<ul class="cards-list flex-i">
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card1.png" alt="" class="cards-list-img">
+						</li>
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card2.png" alt="" class="cards-list-img">
+						</li>
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card3.png" alt="" class="cards-list-img">
+						</li>
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card4.png" alt="" class="cards-list-img">
+						</li>
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card5.png" alt="" class="cards-list-img">
+						</li>
+						<li class="cards-list-item">
+							<img src="assets/images/icons/card6.png" alt="" class="cards-list-img">
+						</li>
+					</ul>
+					<ul class="ftlistLinks flex-i">
+						<li class="ftlistLinks-item">
+							<a href="#" class="ftlistLinks-link">About us</a>
+						</li>
+						<li class="ftlistLinks-item">
+							<a href="#" class="ftlistLinks-link">Return Policy</a>
+						</li>
+						<li class="ftlistLinks-item">
+							<a href="#" class="ftlistLinks-link">Terms & Conditions</a>
+						</li>
+						<li class="ftlistLinks-item">
+							<a href="#" class="ftlistLinks-link">Privacy Policy</a>
+						</li>
+						<li class="ftlistLinks-item">
+							<a href="#" class="ftlistLinks-link">Contact us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<ul class="bootm-to-top">
+		<li class="bootm-to-top-item bootm-to-top-item1">
+			<div href="#" class="bootm-to-top-link">
+				<i class="fa-regular fa-star bootm-to-top-icn bootm-to-top-icn1"></i>
+				<div class="bootm-to-top-link-ab" type="button" data-bs-toggle="modal" data-bs-target="#feedback">Feedback</div>
+			</div>
+		</li>
+		<li class="bootm-to-top-item bootm-to-top-item2">
+			<a href="#" class="bootm-to-top-link">
+				<i class="fa-brands fa-whatsapp bootm-to-top-icn bootm-to-top-icn2"></i>
+				<div class="bootm-to-top-link-ab">Whatsapp</div>
+			</a>
+		</li>
+		<li class="bootm-to-top-item bootm-to-top-item3">
+			<a href="#" class="bootm-to-top-link">
+				<i class="fa-solid fa-arrow-up bootm-to-top-icn bootm-to-top-icn3"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- body-wrapper end -->
+<!-- Modal -->
+<div class="modal fade" id="deliveryModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-body deliveryModalBody">
+				<h1 class="deliveryModalBody-h">Select Delivery Address</h1>
+				<div class="deliveryModalBody-inner">
+					<div class="deliveryModalBody-r flex">
+						<p class="deliveryModalBody-p1">Name</p>
+						<p class="deliveryModalBody-p2">Muhammad Ahsan Iqbal</p>
+					</div>
+					<div class="deliveryModalBody-r flex">
+						<p class="deliveryModalBody-p1">Address</p>
+						<p class="deliveryModalBody-p2">5m23, F9P5+C3 - Abu Dhabi,Abu Dhabi, United Arab Emirates</p>
+					</div>
+					<div class="deliveryModalBody-r flex">
+						<p class="deliveryModalBody-p1">Phone</p>
+						<p class="deliveryModalBody-p2">+971583563542</p>
+					</div>
+				</div>
+			</div>
+			<div class="deliveryModalfrt flex-i justify-between">
+				<div class="deliveryModalfrt-btn flex-a" data-bs-target="#deliveryAdd" data-bs-toggle="modal">
+					<div class="deliveryModalfrt-b1 flex-a">
+						<i class="fa-solid fa-plus"></i>
+					</div>
+					<div class="deliveryModalfrt-b2 flex-a">
+						Add New
+					</div>
+				</div>
+				<div class="deliveryModalfrtbox flex-i">
+					<button class="delivftrbtn1 flex-a" type="button" data-bs-dismiss="modal">Cencel</button>
+					<button class="delivftrbtn2 flex-a" type="submit" >Confirm</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- delivery modal end -->
+<div class="modal fade" id="deliveryAdd" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
+		<div class="modal-content">
+			<div class="modal-body deliveryAddBdy">
+				<h1 class="deliveryAddBdy-h">Add New Address</h1>
+				<form action="">
+					<iframe class="deliveryAddBdy-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14523.926166690082!2d54.357658!3d24.4860964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1678686525373!5m2!1sen!2sae" loading="lazy"></iframe>
+					<div class="flex-i deliveryAddBdy-btn-wrpr">
+						<button class="deliveryAddBdy-btn flex-a" data-bs-target="#deliveryModal" data-bs-toggle="modal">Back</button>
+						<button class="deliveryAddBdy-btn deliveryAddBdy-btn2 flex-a" type="submit">Confirm</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- add delivery location modal end -->
+<!-- Modal -->
+<div class="modal fade feedback" id="feedback" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg  modal-dialog-centered">
+		<div class="modal-content border-0">
+			<form action="" class="feedback-form">
+				<div class="feedback-box-outer position-relative">
+					<div class="feedback-box-outer-close" type="button" data-bs-dismiss="modal" >
+						<i class="fa-solid fa-xmark"></i>
+					</div>
+					<h1 class="feedback-h">Share your Experience</h1>
+					<div class="feedback-form-inner">
+						<div class="feedback-form-p">Type of issue *</div>
+						<div class="feedback-form-chkbes-wrpr flex-i flex-wrap ">
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb1" class="fdbkckb-box-input">
+								<label for="fdbkckb1" class="fdbkckb-box-label">Account</label>
+							</div>
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb2" class="fdbkckb-box-input">
+								<label for="fdbkckb2" class="fdbkckb-box-label">Search product</label>
+							</div>
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb3" class="fdbkckb-box-input">
+								<label for="fdbkckb3" class="fdbkckb-box-label">Orders</label>
+							</div>
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb4" class="fdbkckb-box-input">
+								<label for="fdbkckb4" class="fdbkckb-box-label">Visiting Site</label>
+							</div>
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb5" class="fdbkckb-box-input">
+								<label for="fdbkckb5" class="fdbkckb-box-label">Delivery</label>
+							</div>
+							<div class="fdbkckb-box">
+								<input type="checkbox" id="fdbkckb6" class="fdbkckb-box-input">
+								<label for="fdbkckb6" class="fdbkckb-box-label">Others</label>
+							</div>
+						</div>
+						<div class="feedback-form-p">More Details *</div>
+						<textarea placeholder="Description" class="feedback-form-mesg"></textarea>
+						<input type="text" placeholder="Email" class="feedback-form-input">
+					</div>
+				</div>
+				<div class="feedback-box-outer-btm flex-i justify-end">
+					<div class="feedback-box-outer-btn feedback-box-outer-btn1 flex-a" type="button"  data-bs-dismiss="modal">Cencel</div>
+					<button type="submit" class="feedback-box-outer-btn feedback-box-outer-btn2 flex-a">Submit</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+</div>
+<!-- feedback modal end -->
+<div class="modal fade zoommdl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="close-btn flex-a" type="button" data-bs-dismiss="modal">
+					<i class="fa-solid fa-xmark"></i>
+				</div>
+				<div class="zoommdl-slider swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="zoommdl-slide">
+								<img src="assets/images/products/prd23.png" alt="" class="zoommdl-img">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="zoommdl-slide">
+								<img src="assets/images/products/prd24.png" alt="" class="zoommdl-img">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="zoommdl-slide">
+								<img src="assets/images/products/prd23.png" alt="" class="zoommdl-img">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="zoommdl-slide">
+								<img src="assets/images/products/prd25.png" alt="" class="zoommdl-img">
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-prev pdCol1Arr pdCol1Arr1 flex-a r-50">
+						<i class="fa-solid fa-chevron-left"></i>
+					</div>
+					<div class="swiper-button-next pdCol1Arr pdCol1Arr2 flex-a r-50">
+						<i class="fa-solid fa-chevron-right"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- zooom modal end -->
+<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.starrating.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

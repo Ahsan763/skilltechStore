@@ -1,0 +1,532 @@
+
+.dark .dropdown-menu{
+    border-color: transparent;
+}
+.dark .recomenCard-box,.dark .recomended-wrpr,.dark .bestdealsCrd,.dark .bestdeals-box2,.dark .modal-content,
+.dark .bootm-to-top-link-ab,.dark .bannerCol3,.dark .megamenu,.dark .dropdown-menu,.dark .nav3,.dark .newProdCrd,.dark .searchbox-tab,
+.dark .profile-btn-hol,.dark .theme-light,.dark .megamenu-inner1,.dark .bestdeals-btn-box1,.dark .bootm-to-top-link,.dark .bestdeals-box,
+.dark .salePerCate-box2,.dark .brndCrd,.dark .arr-reco1,.dark .netwrkBrnd-wrpr,.dark .ftrBox-select,.dark .smlist-link,
+.dark .footer-btm,.dark .subpage-prdts-card,.dark .cpus,.dark .prodpage-btm,.dark .prd-hdr,.dark .pagination-bar,.dark .pagination-btn,
+.dark .megamenu-second-inner-box,.dark .pd-box3-inn2,.dark .pdCol1-side2,.dark .pdCol1-side1,.dark .pdCol2-freqently,
+.dark .pd-box3-inn,.dark .cartCardTpB2-b1-input,.dark .reviews-wrpr2-btn,
+.dark .delivery-modal-btn-box2{
+    background-color: #2D343F;
+}
+.dark .ftrBox-select option {
+    background-color: #2D343F !important;
+}
+.dark .form-select,
+.dark .ftrBox-select{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+}
+body.dark,
+.dark .searchbox-input2,.dark .pdCol2-freqently-box,.dark .pd-box3-inn-row-btn,
+.dark .searchbox2,.dark .pd-box3-inn-sm-list a,.dark .cartCardTpB2,.dark .cartCardTpB2-b1,
+.dark .form-select,.dark .viewbtn-wrpr,.dark .pdCol2centered,.dark .pd-box1-s1-modl-btn,
+.dark .recomenCard-slider,.dark .arr-bdeals,.dark .bestdealsCrd-hdr-box2,.dark .searchbox-input-box,.dark .orders-btn,
+.dark .drp-me-btn1:hover,.dark .drp-me-btn,.dark .dropdown-srch-list:hover,.dark .searchbox-input,.dark .deliveryModalBody-inner,
+.dark .fdbkckb-box-label,.dark .feedback-form-mesg,.dark .subpage-prdts-card-btn,.dark .feedback-form-input,.dark .salePerCate-box2-btn,
+.dark .searchbox{
+    background-color: #15212D;
+}
+.dark .arr-bdeals:hover,.dark .megamenu-second-link:hover,.dark .orders-btn:hover,
+.dark .drp-me-btn:hover{
+    background-color: transparent;
+}
+.dark .arr-ntwkBrnd,
+.dark .drp-me-btn1 {
+    background-color: #03D4FF;
+}
+.dark .ordersDetailsPage-b1-p,
+.dark .proDetCmnt-cntnt-heading,.dark .proDetCmnt-cntnt-desc,.dark .ordersDetailsPage-hdr-box2-p,
+.dark .pdCol2centered,.dark .pdCol2-freqently-h,.dark .cartCardTpB2-b1,.dark .pd-box3-inn-row-btn,.dark .pd-box3-inn-p3,
+.dark .pd-box3-inn-row-p span,.dark .pd-box1-inner-p,.dark .pdCol2-freqently-box-p,.dark .pdCol2-r-h span,.dark .rat-li-cmt-p,
+.dark .pd-box2-inner-hdr,.dark .pdCol2-prc,.dark .pdCol2-prc span,.dark .pdCol2-off,.dark .pdCol2-item,.dark .pd-box3-inn-row-p,
+.dark .prodpage-btm-p,.dark .tags-ckb-label,.dark .form-select,.dark .searchbox-input2,.dark .searchbox-input2::placeholder,
+.dark .subpage-prdts-card-btn,.dark .smlist-link,.dark .arr-ntwkBrnd:hover,.dark .deliveryModalBody-p2,.dark .deliveryModalBody-h,
+.dark .bootm-to-top-link,.dark .bannerCol3-btn:hover,.dark .bannerCol3-bdy-btn,.dark .bannerCol3-bdy-prc,.dark .bannerCol3-bdy-p,
+.dark .bannerCol3-h,.dark .searchbox-tab,.dark .orders-btn,.dark .drp-me-btn,.dark .drpprc-qty,.dark .dropdown-menu-box-bdy-h:hover,
+.dark .dropdown-srch-list,.dark .dropdown-toggle,.dark .searchbox-input,.dark .searchbox-input::placeholder,.dark .drp_itmbox i,.dark .drp_link,.dark .profile-btn-hol,
+.dark .delivery-modal-btn-box2,.dark .free-shipping-p,.dark .calbox-inn2-h,.dark .feedback-h,.dark .calbox-inn2-p2,.dark .dropdown-toggle::after,
+.dark .navlist-link,.dark .drpprc-h span,.dark .drpprc-h,.dark .megamenu-tab-icn,.dark .searchbox-input-box-p,.dark .megamenu-tab-icn2,
+.dark .megamenu-tab-link,.dark .bootm-to-top-link-ab,.dark .megamenu-second-link,.dark .deliveryAddBdy-h,.dark .deliveryAddBdy-btn,
+.dark .bannerCol3-bdy-prc span,.dark .bestdeals-r-h,.dark .newProd-h,.dark .bstDealsInn1-h,.dark .bestdealsCrd-hdr-box2-p,
+.dark .bestdealsCrd-hdr-box2-h,.dark .bstDealsInn1-h span,.dark .footerBox-h,.dark .feedback-form-mesg,.dark .pagination-box-total,
+.dark .bestdeals-box-name,.dark .bestdealsCrd-hdr-box2-p2,.dark .bestdeals-box2-bdy-p,.dark .bstDealsInn3-p,.dark .cartCardTpB2-b1-input,
+.dark .bestdealsCrd-link,.dark .rating-count,.dark .brndCrlink,.dark .arr-bdeals,.dark .wishlist-btn,.dark .pagination-btn,.dark .cartCardTpB2-b1-input::placeholder,
+.dark .newProdCrd-h,.dark .brndCrd-prc,.dark .salePerCate-box2-btn,.dark .feedback-form-mesg::placeholder,.dark .feedback-form-input,
+.dark .feedback-form-input::placeholder,.dark .ftrBox-select,.dark .feedback-box-outer-btn:hover,.dark .footerBox-list-link,
+.dark .footerBox-btm-lnk,.dark .subpage-side-inner-link,.dark .feedback-box-outer-close,.dark .fdbkckb-box-label,.dark .ftlistLinks-link,
+.dark .bestdeals-wrpr-btn:hover,.dark .deliveryModalBody-p1,.dark .footer-btm-p,.dark .cpus-h,.dark .subpage-side-row-p,.dark .subcateDropdown-h,
+.dark .cartHdr-box2-check-t,.dark .cpus-box-col1-listlink,.dark .subcate-hdng,.dark .cpus-box-col1-h2,.dark .subpage-side-list-btn,
+.dark .subpage-side-list-link,.dark .subpage-prdts-card-link,.dark .subcateDropdown-box-btn i,.dark .subpage-side-h,
+.dark .reviewsBoxInner-s1-h--a,.dark .reviews-wrpr2Box-h,.dark .reviews-wrpr2-row-p,.dark .reviews-wrpr2-p,.dark .langtogle-icn,
+.dark .cart-prc,.dark .cart-prc span,.dark .pd-box3-inn-row-p3,.dark .close-btn,.dark .language_toggle_ar-text,
+.dark .profile-btn-p{
+    color: #fff;
+}
+.dark .pd-box1-s1-modl-btn:hover{
+    background-color: #CAEDFB;
+    color: #000;
+}
+.dark .wishlist-btn.active,
+.dark .pagination-btn.active,
+.dark .ftlistLinks-link:hover,.dark .feedback-box-outer-btn2,.dark .megamenu-second-link:hover,.dark .navlist-link.active,
+.dark .drp_link1 {
+    color: #07C1E8;
+}
+.dark .drp_link:hover{
+    color: #DC0F0F;
+}
+.dark .pdCol1-side1-box1,.dark .cartCardTpB2,
+.dark .deliveryModalfrt,.dark .bannerCol3-h,.dark .megamenu-tab-outer,.dark .dropdown-menu-box,.dark .bestdeals-btn-box1,
+.dark .feedback-box-outer-btm,.dark .drp_itm2,
+.dark .drp_itm1{
+    border-color: #15212D;
+}
+.dark .searchbox2,.dark .pdCol1-side2,.dark .pdCol1-side1,
+.dark .prodpage-btm,.dark .prd-hdr,.dark .pagination-bar,.dark .pd-box3-inn-row-btn,
+.dark .bestdealsCrd-hdr-box2,.dark .bestdealsCrd,.dark .deliveryModalBody-inner,.dark .bannerCol3,.dark .megamenu,.dark .searchbox-tab,
+.dark .orders-btn,.dark .drp-me-btn,.dark .profile-btn-hol-span,.dark .bootm-to-top-link,.dark .searchbox,.dark .netwrkBrnd-wrpr,
+.dark .recomenCard-box,.dark .brndCrd,.dark .feedback-form-mesg,.dark .ftrBox-select,.dark .feedback-form-input,.dark .recomended-wrpr,
+.dark .nav3{
+    border-color: transparent;
+}
+.dark .tags-ckb-label,
+.dark .orders-btn:hover{
+    border-color: #07C1E8;
+}
+.dark .bootm-to-top-link-ab::after{
+    border-left: 10px solid #2D343F;
+}
+.dark .salePerCate-box{
+    border: 1px solid #2D343F;
+    border-radius: 15px;
+}
+.dark .bestdeals-discount{
+    background-color: #272012;
+}
+.dark .bestdealsCrd{
+    border: none;
+}
+.dark .subpage-prdts-card-btn:hover,
+.dark .arr-reco:hover{
+    box-shadow: none;
+    background-color: transparent;
+    color: #fff;
+}
+.dark .ratingList-btn{
+    background-color: #DFFBCE;
+    color: #15212D;
+}
+.dark .ratingList-btn:hover{
+    background-color: transparent;
+    color: #02BE11;
+}
+.dark .newProd-box-btn:hover{
+    background-color: #2D343F;
+    color: #fff;
+}
+.dark .cartHdr,
+.dark .subpage-side,
+.dark .subpage-side-box{
+    border-color: #2D343F;
+}
+.dark .subpage-side-inner{
+    background-color: #2D343F;
+}
+.dark .subpage-side-inner-link:hover{
+    background-color: #15212D;
+}
+.dark .subpage-prdts-voucher{
+    background-color: #2A2A2B;
+}
+.dark .sbpageBannArr{
+    background-color: rgba(232, 232, 232,0.2);
+}
+.dark .sbpageBannArr:hover{
+    color: #fff;
+}
+.dark .sbpageBannArr2{
+    background-color: #00AED9;
+}
+.dark .subcateInnerDrop-wrpr i,
+.dark .subcateDropdown-wrpr i{
+    color: #fff;
+}
+.dark .pd-box3-inn2-seprator{
+    display: none;
+}
+.dark .pdCol2-inner{
+    border-color: #2D343F;
+}
+.dark .pdCol1Arr1{
+    background-color: #15212D;
+}
+.dark .pdCol1Arr:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.dark .pdCol2-off{
+    background-color: #2A2A2B;
+}
+.dark .pdCol2-off2{
+    background-color: transparent;
+}
+.dark .pdCol2-off1 {
+    color: #fff;
+    background-color: #16A11A;
+    border-color: transparent;
+}
+.dark .pdCol2-off3 {
+    color: #199ED5;
+    background-color: transparent;
+    border-color: #199ED5;
+}
+.dark .proDetCmnt-wrpr,
+.dark .proDetCmnt-col1,
+.dark .proDetCmnt-cntnt-row{
+    border-color: #2D343F;
+}
+.dark .proDetCmnt-col1-tab{
+    background-color: transparent;
+    color: #fff;
+    border-color: transparent;
+}
+.dark .proDetCmnt-col1-tab.active{
+    background-color: #1a2f43;
+}
+.dark .reviewsBox3-textarea::placeholder,
+.dark .reviewsBox3-textarea{
+    background-color: #2D343F;
+    color: #fff;
+    border-color: transparent;
+}
+.dark .reviewsBox3-row-inn{
+    background-color: #2A2A2B;
+}
+.dark .reviewsBox3-row-inn2:hover{
+    background-color: #15212D;
+    color: #fff;
+}
+.dark .reviewsBox-seprator{
+    background-color: #2D343F;
+}
+.dark .reviews-wrpr2-box{
+    border-color: #2D343F;
+}
+.dark .reviewsBox2{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .reviewsBoxInner-row-p,
+.dark .reviewsBoxInner-s1-h{
+    color: #fff;
+}
+.dark .progress{
+    background-color: #2D343F;
+}
+.dark .reviews-wrpr2Box{
+    background-color: #4A4A4A;
+}
+.dark .pd-box3-inn-row-btn1 {
+    color: #FBA829;
+}
+.dark .subpage-prdts-card.active{
+    border-color: transparent;
+}
+.dark .ordersDetailsPage-b1-btn1{
+    background-color: #2D343F;
+}
+.dark .wishlistCrd-ftr-voucher{
+    background-color: #36483B;
+}
+.dark .wishlistCrd-ftr-sep{
+    background-color: #15212D;
+}
+.dark .reccWrpr{
+    border-color: transparent;
+    background-color: #2D343F;
+}
+.dark .reccWrpr .bestdeals-box2--recc{
+    background-color: #15212D;
+}
+.dark .reccWrpr-slider .bstDealsInn2-instock{
+    background-color: #2D343F;
+    color: #fff;
+}
+.dark .bstDealsInn3-p{
+    color: #7DE198;
+}
+.dark .r-views-btn{
+    background-color: #15212D;
+    border-color: transparent;
+}
+.dark .idad-btn-box__label{
+    background-color: #2D343F;
+}
+.dark .dropdown-menu-box:nth-last-child(1){
+    border-bottom: none;
+}
+.dark .orderSta-h,.dark .orderStaB1-p,
+.dark .yourDetails-row-p,.dark .yourDetails-row-p span,.dark .cartpage-total-p,.dark .cartpage-total-price span,
+.dark .orderDetailsCard-p,.dark .yourDetails-h,.dark .ordrDet-date,.dark .ftrBox-h,.dark .ratingStarsTotal,.dark .chkout-pdCard-bdy-p,
+.dark .chkout-pd-h,.dark .ordrSmryRow-p,.dark .cartHdr-p,.dark .cartCardTpB1-h span,.dark .cartCardTpB1-h,.dark .cartCardTpB1-p,
+.dark .ordrSmry-h,.dark .ordrSmry-tp-p2 span,.dark .ordrSmry-tp-p2,.dark .ordrSmry-tp-p,
+.dark .subcate-col2-hdr-p{
+    color: #fff;
+}
+.dark .cartpage .cartCard{
+    background-color: #15212D;
+    border-bottom: 1px solid #2D343F;
+}
+.dark .ordrSmry{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .ordrSmry2, .ordrSmry-active{
+    border-color: #1FCB23;
+}
+.dark .ordrSmryRow .ordrSmryRow-b1{
+    background-color: #2D343F;
+}
+.dark .cartpage .cartCard .cartCardTpB2{
+    border-color: #2D343F;
+}
+.dark .ordrSmryRow2:hover{
+    background-color: #2D343F;
+    color: #fff;
+}
+.dark .ordrSmryRow3{
+    background-color: #2D343F;
+    color: #fff;
+}
+.dark .checkoutPage .shipForm{
+    background-color: #2D343F;
+    border-color: #2D343F;
+    color: #fff;
+}
+.dark .shipForm::placeholder{
+    color: #fff;
+}
+.dark .phon-inputbox{
+    background-color: #50545A;
+    border: none;
+    color: #fff;
+}
+.dark .form-control.shipForm:focus{
+    background-color: transparent;
+    border-color: #24D4FD;
+}
+.dark .form-input-sm-name{
+    background-color: #15212D;
+}
+.dark .checkoutPage .form-control.form-select.shipForm option{
+    background-color: #15212D;
+}
+.dark .checkout-form-btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.dark .chkoutBar{
+    background-color: #2D343F;
+    border-color: #2D343F;
+}
+.dark .col2-row-col3-inner-b,
+.dark .col2-row-col3-inner-b-title,
+.dark .chkoutBar-p{
+    color: #fff;
+}
+.dark .orders-page-col2-row-btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.dark .chkoutBar-innerbox-p{
+    color: #fff;
+}
+.dark .chkoutBar-innerbox-input1{
+    background-color: #2D343F;
+    border-color: #a1a1a1;
+    color: #fff;
+}
+.dark .opagecolarr,
+.dark .chkoutBar-innerbox-input1::placeholder{
+    color: #fff;
+}
+.dark ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.dark .chkout-pdCard,
+.dark .chkout-pd-h{
+    border-color: #2D343F;
+}
+.dark .form-select.ftrBox-select{
+    background-color: #2D343F;
+}
+.dark .ordrSmry .ordrSmry-tp-btn2.disabled{
+    background-color: #535353;
+    color: #fff;
+}
+.dark .orders-page-col2-row-col1-p,
+.dark .orderDetailsCard-bdy-box-p{
+    color: #fff;
+}
+.dark .orderSta,
+.dark .cartpage-total,
+.dark .yourDetails,
+.dark .orderDetailsCard{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .orderStaB1.active .orderStaB1-inn{
+    background-color: rgb(30, 82, 31)
+}
+.dark .orderStaB1-inn{
+    background-color: #15212D;
+}
+.dark .orderSta-btn:hover{
+    background-color: transparent;
+}
+.dark .reccmendedPro2{
+    background-color: #2D343F;
+}
+.dark .reccmendedPro-slider .newProdCrd{
+    background-color: #15212D;
+}
+.dark .reccmendedPro-slider .newProdCrd .r-views-btn{
+    background-color: #2D343F;
+}
+.dark .reccmendedPro-slider .newProdCrd .r-views-btn:hover{
+    background-color: transparent;
+}
+.dark .orders-page-col2-row{
+    border-color: transparent;
+    background-color: #2D343F;
+}
+.dark .orders-page-col2-row-col2{
+    background-color: #15212D;
+    border-color: transparent;
+}
+.dark .orders-page-col2-row-col3-inner{
+    background-color: #15212D;
+    border-color: transparent;
+}
+.dark .orders-page-col1{
+    background-color: #2D343F;
+}
+.dark .orders-page-col1-btn{
+    background-color: #15212D;
+}
+.dark .orders-page-col1-btn-b1-p{
+    color: #fff;
+}
+.dark .ser-boster{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .sercard-price,
+.dark .sercard-p{
+    color: #fff;
+}
+.dark #sercardModal .sercardModalBdy-hdr-h{
+    color: #FC573F;
+}
+.dark .sercardModalBdy-input::placeholder,
+.dark .sercardModalBdy-close{
+    color: #fff;
+}
+.dark .sercardModalBdy-input{
+    background-color: #15212D;
+    border-color: transparent;
+    color: #fff;
+}
+.dark .profileSide{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .profileSide-tab{
+    background-color: #15212D;
+    color: #fff;
+}
+.dark .profileSide-tabB-p{
+    color: #fff;
+}
+.dark .profileSide-tabB{
+    background-color: #15212D;
+    color: #fff;
+}
+.dark .profileSide-tab-icn ,
+.dark .profileSide-tabB i{
+    color: #fff;
+}
+.dark .profileSide-logout{
+    background-color: #15212D;
+    color: #fff;
+}
+.dark .form-control.shipForm{
+    background-color: #2D343F;
+    border-color: #2D343F;
+}
+.dark .profileBtn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.dark .rviewPrfBox-p,
+.dark .profilePagInnR2-Box2-h,
+.dark .passboxhol-p,
+.dark .shipForm--update-pass{
+    color: #fff;
+}
+.dark .shipForm--pas{
+    color: #fff ;
+}
+.dark .rviewPrfBox{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .profilePagInnR2-Arr1{
+    background-color: #2D343F;
+}
+.dark .profilePagInnR2-Arr:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.dark .form-control{
+    color: #fff;
+}
+.dark .pcbuild-banner-box{
+    background-color: #2D343F;
+}
+.dark .pcbuild-box2-row-p2,
+.dark .pcbuild-box2-row-p1,
+.dark .sspi-crd-inner-bdy-p,
+.dark .sspi-crd-inner-bdy-price span,
+.dark .sspi-box-label-p,
+.dark .delivftrbtn2:hover,
+.dark .delivftrbtn1:hover{
+    color: #fff;
+}
+.dark .buldpccrd{
+    border-color: transparent;
+}
+.dark .buldpccrd:hover{
+    background-color: #15212D;
+    border-color: #03D4FF;
+}
+.dark .sspi-crd-label{
+    background-color: #6f6f6f;
+}
+.dark .sspi-crd-inner-hdr{
+    background-color: #2D343F;
+    border-color: transparent;
+}
+.dark .pcbuild-box2{
+    background-color: #2D343F;
+}
+.dark .cartCardTpB23{
+    border-color: #2D343F;
+}
+.dark .sspi-crd,
+.dark .subpage-side-pcbuild-inner{
+    border-color: #2D343F;
+}

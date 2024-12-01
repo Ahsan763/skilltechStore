@@ -1,0 +1,114 @@
+.megamenu{
+    width: 275px;
+    padding: 20px 0;
+    max-width: 275px;
+    border: 1px solid #F9F9F9;
+    position: relative;
+}
+.megamenu-tab-outer{
+    padding: 0 12px;
+    border-bottom: 1px solid #F9F9F9;
+}
+.megamenu-tab-outer:nth-last-child(1){
+    border-bottom: 0;
+}
+.megamenu-tab{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 13px 13px;
+    cursor: pointer;
+}
+.megamenu-tab:hover,
+.megamenu-tab.active{
+  background-color: #03D4FF;
+  color: #fff;
+}
+.megamenu-tab:hover .megamenu-tab-icn,
+.megamenu-tab.active .megamenu-tab-icn,
+.megamenu-tab:hover .megamenu-tab-icn2,
+.megamenu-tab.active .megamenu-tab-icn2,
+.megamenu-tab:hover .megamenu-tab-link,
+.megamenu-tab.active .megamenu-tab-link{
+    color: #fff;
+}
+.megamenu-tab-icn{
+    font-size: 15px;
+    color: #979292;
+}
+.megamenu-tab-icn2{
+    font-size: 15px;
+    color: #979292;
+    margin-left: auto;
+}
+.megamenu-tab-link{
+  font-size: 17px;
+  font-weight: 500;
+}
+.megamenu-tab-outer:hover .megamenu-inner1{
+    display: block;
+}
+/* mega menu side 1 end */
+.megamenu-inner1{
+    position: absolute;
+    padding: 20px 20px;
+    top: 0px;
+    left: 100%;
+    background-color: #fff;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,0.03);
+    z-index: 9;
+    display: none;
+}
+.megamenu-inner-box{
+    width: 250px;
+    margin-right: 20px;
+}
+.megamenu-inner-box:nth-last-child(1){
+    margin-right: 0;
+}
+.megamenu-inner-box .megamenu-tab{
+    position: relative;
+}
+/* inner box end */
+.megamenu-second-inner-box{
+    padding: 20px 40px 20px 20px;
+    position: absolute;
+    background-color: #fff;
+    left: 100%;
+    z-index: 99;
+    border: 1px solid #03D4FF;
+    width: 320px;
+    display: none;
+}
+.megamenu-second-inner-box::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: flex;
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: calc(50% - 20px / 2);
+    left: -10px;
+}
+.megamenu-second-link{
+    display: block;
+    padding: 13px 30px 13px 13px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.megamenu-second-link:hover{
+    background-color: #EFFBFE;
+    color: #038DF6;
+}
+.megamenu-inner-box .megamenu-tab:hover .megamenu-second-inner-box{
+    display: block;
+}
+@media(max-width:1023px){
+    .megamenu{
+        display: none;
+    }
+
+}
